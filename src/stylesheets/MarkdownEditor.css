@@ -1,0 +1,22 @@
+.Editor {
+	border: solid 2px #222;
+	border-radius: 8px;
+	padding: 20px;
+	margin: 20px auto;
+	height: 400px;
+	text-align: left;
+}
+
+textarea {
+	height: 90%;
+	width: 100%;
+	resize: none;
+	border: solid 1px #666;
+	padding: 10px;
+}
+
+h4 {
+	font-weight: bold;
+	margin-top: 0px;
+	text-align: center;
+}
