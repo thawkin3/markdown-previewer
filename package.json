@@ -2,7 +2,7 @@
   "name": "markdown-previewer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ec2-54-200-192-157.us-west-2.compute.amazonaws.com/markdownPreviewer/",
+  "homepage": "http://tylerhawkins.info/markdownPreviewer/",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "marked": "^0.3.6",

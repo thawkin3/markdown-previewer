@@ -9,7 +9,7 @@ class App extends Component {
     super(props);
 
     this.state = {
-      editorText: 'Heading\n=======\n\nSub-heading\n-----------\n \n### Another deeper heading\n \nParagraphs are separated\nby a blank line.\n\nLeave 2 spaces at the end of a line to do a  \nline break\n\nText attributes *italic*, **bold**, \n`monospace`, ~~strikethrough~~ .\n\nUnordered list:\n\n  * milk\n  * bread\n  * eggs\n\nOrdered list:\n\n  1. Learn React\n  2. Build a Markdown Previewer\n  3. ???\n  4. Profit\n\n*[made by Tyler Hawkins - portfolio here](http://ec2-54-200-192-157.us-west-2.compute.amazonaws.com/201R/)*'
+      editorText: 'Heading\n=======\n\nSub-heading\n-----------\n \n### Another deeper heading\n \nParagraphs are separated\nby a blank line.\n\nLeave 2 spaces at the end of a line to do a  \nline break\n\nText attributes *italic*, **bold**, \n`monospace`, ~~strikethrough~~ .\n\nUnordered list:\n\n  * milk\n  * bread\n  * eggs\n\nOrdered list:\n\n  1. Learn React\n  2. Build a Markdown Previewer\n  3. ???\n  4. Profit\n\n*[made by Tyler Hawkins - portfolio here](http://tylerhawkins.info/201R/)*'
     }
 
     this.updateEditorText = this.updateEditorText.bind(this);
@@ -41,7 +41,7 @@ class App extends Component {
         </div>
 
         <footer className="App-footer">
-          <p>Check out the rest of my portfolio <a href="http://ec2-54-200-192-157.us-west-2.compute.amazonaws.com/201R/">here</a></p>
+          <p>Check out the rest of my portfolio <a href="http://tylerhawkins.info">here</a></p>
         </footer>
       </div>
     );
